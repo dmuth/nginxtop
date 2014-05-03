@@ -1,5 +1,7 @@
 # Nginxtop
 
+UNIX top-like app for nginx (or Apache, if you wish) access logs.
+
 Every so often, a poorly behaved spammer or web crawler will hit one of the websites 
 I manage, and proceed to load the same pages over and over, causing a resource issue 
 and possibly even a Denial of Service.  I got tired of this, so I built my own tool to determine 
