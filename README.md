@@ -10,20 +10,31 @@ in real time who the culrprits were.
 
 ## Installation
 
+### Via npm (recommended)
+
+    npm install -g nginxtop
+    
+This will install nginxtop into /usr/local/bin/ or somewhere else likely to be in your path.
+
+
+### From source
+
     git@github.com:dmuth/nginxtop.git
     cd nginxtop
+
+This will check out a copy of the nginxtop app to your current directory.
 
 
 ## Usage
 
-    tail -f /var/log/nginx/access.log | ./app.js [ -n num_hosts_to_print] [-i report_interval_in_seconds]
+    tail -f /var/log/nginx/access.log | nginxtop [ -n num_hosts_to_print] [-i report_interval_in_seconds]
 
     
 ## Testing
 
 There is a file called `test.log` in this directory.  It contains sample log entries.  To test nginxtop using it:
 
-    tail -fn100 test.log | ./app.js -n 5
+    tail -fn100 test.log | nginxtop -n 5
 
 You'll start to see output like this once every second:
 
