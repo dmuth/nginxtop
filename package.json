@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "nginxtop": "app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@bitbucket.org:dmuth/nginxtop.git"
