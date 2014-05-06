@@ -1,8 +1,8 @@
 {
   "name": "nginxtop",
   "version": "0.1.0",
-  "description": "See what IPs are hitting your website the most in real time.",
-  "main": "app.js",
+  "description": "See what IPs are hitting your website the most in real time. (Great for catching spambots and poorly behaved web crawlers)",
+  "main": "./app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
